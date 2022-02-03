@@ -436,7 +436,7 @@ func listenAndServeHTTP() {
 	router.HandleFunc("/accident", handleAccident)
 	router.HandleFunc("/test", handleTest).Methods("GET", "OPTIONS")
 
-	http.ListenAndServe("https://dataemul.herokuapp.com:443", router)
+	http.ListenAndServe(":8383", router)
 }
 
 func handleMMS(w http.ResponseWriter, r *http.Request) {
