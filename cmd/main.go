@@ -7,6 +7,7 @@ import (
 	"io/ioutil"
 	"math/rand"
 	"net/http"
+	"os"
 	"strconv"
 	"strings"
 	"time"
@@ -430,13 +431,16 @@ func getRandomIntBetweenValues(min int, max int) int {
 
 func listenAndServeHTTP() {
 	router := mux.NewRouter()
-
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8383" // Default port if not specified
+	}
 	router.HandleFunc("/mms", handleMMS)
 	router.HandleFunc("/support", handleSupport)
 	router.HandleFunc("/accident", handleAccident)
 	router.HandleFunc("/test", handleTest).Methods("GET", "OPTIONS")
 
-	http.ListenAndServe(":8383", router)
+	http.ListenAndServe(":"+port, router)
 }
 
 func handleMMS(w http.ResponseWriter, r *http.Request) {
