@@ -1,1 +1,1 @@
-web: main
+web: emulator -port $PORT
