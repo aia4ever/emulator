@@ -435,7 +435,6 @@ func listenAndServeHTTP() {
 	if port == "" {
 		port = "8383" // Default port if not specified
 	}
-	router.Handle("/", http.FileServer(http.Dir("./static")))
 	router.HandleFunc("/mms", handleMMS)
 	router.HandleFunc("/support", handleSupport)
 	router.HandleFunc("/accident", handleAccident)
