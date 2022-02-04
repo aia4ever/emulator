@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb5e47ad-0151-4ec0-9060-737f64d3b2d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/false.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/true.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/emulator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/emulator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emulator/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/emulator/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/pkg/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/../simulator/pkg/server/server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../simulator/static/css/main.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../simulator/static/images/false.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../simulator/static/images/true.png" beforeDir="false" />
@@ -38,7 +27,7 @@
   </component>
   <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.17.5" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../simulator" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
